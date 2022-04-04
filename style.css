@@ -204,8 +204,25 @@ body {
 .pokemon__name{
   margin-top:5%;
   font-size:3rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.rectangle{
+  width:70px;
+  height: 40px;
+  background-color: #0d141f;
+  margin-left: 10px;
+  
+}
+.circle{
+  margin-left: 10px;
 }
 .pokemon__type{
   margin-top:10%;
   font-size:20px;
+}
+.pokemon_pokedex{
+  display: flex;
+  align-items: center;
 }
